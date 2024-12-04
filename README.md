@@ -25,7 +25,7 @@ src/
 ├── components/        # Componentes reutilizáveis (ex: Cabeçalho, Lista de Sorteios)
 ├── pages/             # Páginas principais (ex: Home, Detalhes do Sorteio)
 ├── styles/            # Arquivos de estilos, incluindo Tailwind
-└── utils/             # Funções utilitárias e hooks personalizados
+└── utils/             # Funções utilitárias e hooks personalizados 
 
 public/
 ├── images/            # Imagens estáticas (logo, banners, etc.)
