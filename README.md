@@ -36,6 +36,7 @@ next.config.js         # Configurações do Next.js
 
 
 
+
 ## 🌟 Funcionalidades
 
 - Exibição de resultados de sorteios de loterias.
