@@ -1,5 +1,6 @@
 import { fetchMegaSenaData } from "../api/loteriaapi";
 import Logo from "../../public/logo-caixa.png";
+import Image from 'next/image';
 
 export async function getStaticProps() {
   try {
@@ -36,7 +37,7 @@ export default function Home({ concursos }: { concursos: MegaSenaProps | null })
       {/* Cabeçalho */}
       <header className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-6 shadow-md">
         <div className="container mx-auto px-4 flex justify-between items-center">
-        <img src={Logo.src} alt="Logo" width={50} height={50}/>        
+        <Image src={Logo.src} alt="Logo" width={50} height={50}/>   
           <nav>
             <ul className="flex space-x-4">
               <li>
