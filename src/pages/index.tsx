@@ -3,13 +3,17 @@ import Concurso from "@/components/concurso";
 
 export default function Home() {
   return (
-    <div>
+      <div className="min-h-screen bg-gray-100">
       <Navbar />
       <main className="container mx-auto px-4 py-8">
         <h2 className="text-2xl font-semibold mb-6 text-gray-800">
           Inicio
         </h2>
+        <div className="bg-white shadow-md rounded-lg p-6 hover:shadow-xl transition duration-300">
+          <p>Este é um projeto de estudo feito para aprender e explorar o Next.js, o poderoso framework React focado em desempenho e simplicidade. 🚀</p>
+            <p>Utilizando a API da Mega-Sena, este projeto traz funcionalidades básicas que mostram como integrar dados externos de forma eficiente em um aplicativo web moderno.</p>
+        </div>
       </main>
-    </div>
+      </div>
   );
 }
