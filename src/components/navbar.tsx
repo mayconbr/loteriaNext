@@ -9,7 +9,10 @@ const Navbar = () => {
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <a href="#" className="text-white hover:text-gray-200 transition duration-200">Início</a>
+              <a href="/" className="text-white hover:text-gray-200 transition duration-200">Início</a>
+            </li>
+            <li>
+              <a href="/megasena" className="text-white hover:text-gray-200 transition duration-200">Megasena</a>
             </li>
           </ul>
         </nav>
