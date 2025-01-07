@@ -1,11 +1,12 @@
 import Navbar from "@/components/navbar";
-import Concurso from "@/components/concurso";
+import Carousel from "@/components/carousel";
 
 export default function Home() {
   return (
       <div className="min-h-screen bg-gray-100">
       <Navbar />
       <main className="container mx-auto px-4 py-8">
+      <Carousel />
       <h2 className="text-2xl font-semibold mb-6 text-gray-800">
           Inicio
         </h2>

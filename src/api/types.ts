@@ -16,7 +16,7 @@ interface LocalGanhador{
  
 interface Premio {
     descricao: string;
-    faixa: number;s
+    faixa: number;
     ganhadores: number;
     valorPremio: number;
 }
